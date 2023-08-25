@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple Data App</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+        <h1>Simple Data App</h1>
+        <form id="data-form" method="POST" action="/submit">
+            <label for="name">Name:</label>
+            <input type="text" name="Name" id="name" required /><br />
+
+            <label for="email">Email:</label>
+            <input type="email" name="Email" id="email" required /><br />
+
+            <label>College Level:</label>
+            <input
+                type="radio"
+                name="CollegeLevel"
+                value="BS"
+                id="bs"
+                required
+            />
+            <label for="bs">BS</label>
+            <input type="radio" name="CollegeLevel" value="MS" id="ms" />
+            <label for="ms">MS</label><br />
+
+            <label for="classesTaken">Classes Taken:</label>
+            <input
+                type="text"
+                name="ClassesTaken"
+                id="classesTaken"
+                required
+            /><br />
+
+            <label for="classExpectation">Class Expectation:</label>
+            <textarea
+                id="classExpectation"
+                name="ClassExpectation"
+                rows="4"
+                required
+            ></textarea
+            ><br />
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <script src="app.js"></script>
+    </body>
+</html>
