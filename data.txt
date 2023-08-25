@@ -1,1 +1,0 @@
-{"Name":"Jay","Email":"jay.jvpd@gmail.com","CollegeLevel":"MS","ClassesTaken":"CS690","ClassExpectation":"Develop good projects"}
